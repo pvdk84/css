@@ -63,14 +63,14 @@ body {
   padding-bottom: 20%;
   grid-row-gap: 30px;
   grid-column-gap: 10%;
-  background-image: url("images/image1.jpg");
+  background-image: url("images/image3.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .calculatorDisplay {
   grid-column: 1 / 5;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(0, 0, 0, 0.2);
   border: 2px solid white;
   border-radius: 10px;
   padding: 3%;
@@ -80,7 +80,7 @@ body {
 }
 
 .calculatorKey {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(0, 0, 0, 0.2);
   border: 2px solid white;
   border-radius: 30px;
   padding: 8%;
@@ -91,9 +91,9 @@ body {
 }
 
 .calculatorKey:hover {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .calculatorKey:active {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.5);
 }
