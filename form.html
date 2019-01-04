@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <link rel="stylesheet" type="text/css" href="form.css">
+  <title>CSS project: Form</title>
+</head>
+
+<body>
+
+  <!-- HEADER AND NAVIGATION BAR -->
+  <h2 class="header">CSS Project: Form</h2>
+  <ul class="navigationBar">
+    <li><a href="home.html">Home</a></li>
+    <li><a class="active" href="form.html">Form</a></li>
+    <li><a href="images.html">Images</a></li>
+    <li><a href="calculator.html">Calculator</a></li>
+  </ul>
+
+  <!-- FORM -->
+  <div class="formBackground">
+    <form class="form">
+
+      <!-- name -->
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your full name...">
+
+
+      <!-- favorite food -->
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Your email address...">
+
+      <!-- date of birth picker -->
+      <label for="birthdate">Date of birth:</label>
+      <table>
+        <tr>
+          <td>
+            <select>
+              <option name="day">Day</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="etc">etc.</option>
+            </select>
+          </td>
+          <td>
+            <select>
+              <option name="month">Month</option>
+              <option value="january">January</option>
+              <option value="february">February</option>
+              <option value="march">March</option>
+              <option value="etc">etc.</option>
+            </select>
+          </td>
+          <td>
+            <select>
+              <option value="year">Year</option>
+              <option value="1980">1980</option>
+              <option value="1981">1981</option>
+              <option value="1982">1982</option>
+              <option value="etc">etc.</option>
+            </select>
+          </td>
+        </tr>
+      </table>
+
+      <!-- gender picker out -->
+      <label for="birthdate">Gender:<br></label>
+      <input type="radio" name="gender" value="apache">Apache<br>
+      <input type="radio" name="gender" value="female">Female<br>
+      <input type="radio" name="gender" value="male">Male<br>
+
+      <!-- submit and reset buttons -->
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+
+    </form>
+  </div>
+
+</body>
+
+</html>

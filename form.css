@@ -1,0 +1,109 @@
+/* BOX MODEL */
+* {
+  box-sizing: border-box;
+}
+
+/* TEXT STYLING */
+
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: black
+    margin: 0;
+}
+
+/* HEADER STYLING */
+
+.header {
+  padding: 20px;
+  text-align: center;
+  color: #333333;
+}
+
+/* NAVIGATION BAR STYLING */
+
+.navigationBar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  border: 2px solid #666666;
+  border-radius: 5px;
+}
+
+.navigationBar li {
+  float: left;
+}
+
+.navigationBar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navigationBar li a:hover {
+  background-color: #666666;
+}
+
+.navigationBar li a.active {
+  background-color: #999999;
+}
+
+/* FORM STYLING */
+
+div.formBackground {
+  border-radius: 5px;
+  background-color: #fff5cc;
+  /* background-color: #e6f2ff; */
+  padding: 20px 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 25px;
+}
+
+label {
+  margin: 2px;
+}
+
+input[type=text], input[type=email], input[type=date], select {
+  width: 100%;
+  padding: 5px 10px;
+  margin: 5px 0px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size:15px;
+}
+
+input[type=radio] {
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  /* margin-top: 15px; */
+}
+
+input[type=submit] {
+  background-color: green;
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+  margin-top: 30px;
+  margin-left: 2px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+input[type=reset] {
+  background-color: grey;
+  font-size: 15px;
+  color: white;
+  padding: 10px;
+  margin-top: 30px;
+  margin-left: 2px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
